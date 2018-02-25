@@ -4,11 +4,11 @@ import java.util.Collections;
     Given a time for a 24-hour clock(HH MM), find ther earliest time that is based on the given time
     Ex input = "20:10" output = "00:12"
  */
-public class Main {
+public class Time {
     public static void main(String[] args) {
 //        parser("23:16");
 
-        System.out.print(parser("20:10"));
+        System.out.print(parser("01:06"));
     }
     // time complexity for this algorithm 2n + n log n
     // Collection sort using merge sort algorithm.
